@@ -1,4 +1,4 @@
-##### Maximum Movies Problem 
+# Maximum Movies Problem 
 ## Problem Overview
 The task at hand is to find the maximum number of "movies" (pairs of superstars) that can be created based on collaboration preferences. Each movie must consist of exactly two superstars who are willing to work together, and each superstar can only participate in one movie. The solution needs to maximize the number of valid movie pairs while respecting these conditions.
 
@@ -18,8 +18,8 @@ Since we need to check all possible edges (collaborations) to form valid pairs, 
 N is the number of superstars and E is the number of edges (collaborations).
 
 ## Final Complexity Summary
-# Time Complexity: O(N⋅E)
-# Space Complexity: O(N+E)
+### Time Complexity: O(N⋅E)
+### Space Complexity: O(N+E)
 
 ## Why This Approach?
 Efficiency: DFS is chosen because it allows us to explore potential matches quickly and backtrack when necessary.
