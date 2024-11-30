@@ -12,15 +12,16 @@ Once the projects are sorted, we use a search function to find a particular road
 Finally, we use the Minimum Spanning Tree (MST) algorithm to figure out the least number of roads needed to connect all the areas. The idea behind MST is to connect all areas with the minimum cost while avoiding unnecessary roads. We used Prim’s Algorithm for this, which is efficient and works by expanding the connection to the cheapest neighboring area. It’s like starting from one area and always picking the cheapest road to the next area until all areas are connected.
 
 ## Algorithms Used
-1. Sorting:
+# 1. Sorting:
 We used Custom Sorting based on two factors:
 
-## Priority: Projects with higher priority should come first.
+Priority: Projects with higher priority should come first.
 Cost: If two projects have the same priority, the cheaper one should come first.
-2. Searching:
+
+# 2. Searching:
 To search for a road project by its identifier, we simply loop through the list of projects. We compare each project’s identifier to the one we're looking for. If we find a match, we print its position in the sorted list; if not, we inform the user that the project wasn’t found.
 
-3. Minimum Spanning Tree (MST):
+# 3. Minimum Spanning Tree (MST):
 We used Prim’s Algorithm for this. The algorithm helps us connect all areas with the minimum number of roads and lowest cost. We start with any area and pick the cheapest road to the next area. This process continues until all areas are connected.
 
 ## Why These Methods?
