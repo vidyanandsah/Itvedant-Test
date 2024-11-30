@@ -36,7 +36,7 @@ Sort and display the road projects based on priority and cost.
 Allow you to search for a specific road project.
 Calculate and display the minimum set of roads required to connect all areas.
 
-### Time and Space Complexity of the Code
+# Time and Space Complexity of the Code
 ## 1. Sorting the Road Projects:
 We are sorting the list of road projects based on two criteria: priority (descending) and cost (ascending).
 The sorting step uses std::sort, which is an efficient sorting algorithm with an average and worst-case time complexity of O(N log N), where N is the number of road projects.
